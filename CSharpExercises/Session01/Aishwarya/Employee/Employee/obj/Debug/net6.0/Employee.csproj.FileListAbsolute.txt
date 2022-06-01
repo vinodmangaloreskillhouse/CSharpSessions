@@ -1,0 +1,15 @@
+E:\C#\skillhouse\CSharpExercises\Session01\Aishwarya\Employee\Employee\obj\Debug\net6.0\Employee.csproj.AssemblyReference.cache
+E:\C#\skillhouse\CSharpExercises\Session01\Aishwarya\Employee\Employee\obj\Debug\net6.0\Employee.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\skillhouse\CSharpExercises\Session01\Aishwarya\Employee\Employee\obj\Debug\net6.0\Employee.AssemblyInfoInputs.cache
+E:\C#\skillhouse\CSharpExercises\Session01\Aishwarya\Employee\Employee\obj\Debug\net6.0\Employee.AssemblyInfo.cs
+E:\C#\skillhouse\CSharpExercises\Session01\Aishwarya\Employee\Employee\obj\Debug\net6.0\Employee.csproj.CoreCompileInputs.cache
+E:\C#\skillhouse\CSharpExercises\Session01\Aishwarya\Employee\Employee\bin\Debug\net6.0\Employee.exe
+E:\C#\skillhouse\CSharpExercises\Session01\Aishwarya\Employee\Employee\bin\Debug\net6.0\Employee.deps.json
+E:\C#\skillhouse\CSharpExercises\Session01\Aishwarya\Employee\Employee\bin\Debug\net6.0\Employee.runtimeconfig.json
+E:\C#\skillhouse\CSharpExercises\Session01\Aishwarya\Employee\Employee\bin\Debug\net6.0\Employee.dll
+E:\C#\skillhouse\CSharpExercises\Session01\Aishwarya\Employee\Employee\bin\Debug\net6.0\Employee.pdb
+E:\C#\skillhouse\CSharpExercises\Session01\Aishwarya\Employee\Employee\obj\Debug\net6.0\Employee.dll
+E:\C#\skillhouse\CSharpExercises\Session01\Aishwarya\Employee\Employee\obj\Debug\net6.0\refint\Employee.dll
+E:\C#\skillhouse\CSharpExercises\Session01\Aishwarya\Employee\Employee\obj\Debug\net6.0\Employee.pdb
+E:\C#\skillhouse\CSharpExercises\Session01\Aishwarya\Employee\Employee\obj\Debug\net6.0\Employee.genruntimeconfig.cache
+E:\C#\skillhouse\CSharpExercises\Session01\Aishwarya\Employee\Employee\obj\Debug\net6.0\ref\Employee.dll
