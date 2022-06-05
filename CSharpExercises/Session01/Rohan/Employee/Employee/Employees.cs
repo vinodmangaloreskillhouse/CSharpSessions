@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Employee
 {
-    internal class Employees
+    internal class Employer
     {
         public string Name { get; set; } 
 
@@ -16,9 +16,15 @@ namespace Employee
 
         public string Designation { get; set; }
 
-        public string Instrution { get; set; }  
+        public void Work()
+        {
+            Console.WriteLine("Hey I am " + this.Name + " I am Working. Thank you.");
+        }
 
-       // public string Instrution2 { get; set; } 
-
+        public string StandUp()
+        {
+            string message = "I am " + this.Age + " years old. How may I help you?";
+            return message;
+        }
     }
 }

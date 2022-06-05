@@ -2,7 +2,7 @@
 
 using Employee;
 
-Employees employee1 = new Employees();
+Employer employee1 = new Employer();
 employee1.Name = "Thomas";
 employee1.Age = 56;
 employee1.Company = "DataMart";
@@ -13,37 +13,23 @@ Console.WriteLine("Age:         "+employee1.Age);
 Console.WriteLine("Company:     "+employee1.Company);
 Console.WriteLine("Designation: "+employee1.Designation);
 
-Console.WriteLine("\nEnter an instruction (Work/Stand)");
-var Instruct=Console.ReadLine();
-employee1.Instrution = Instruct;
-if(employee1.Instrution == "Work")
-{
-    Console.WriteLine("\nHey I am " + employee1.Name + ". I am working! Thank you");
-}
-else if (employee1.Instrution == "Stand" || employee1.Instrution=="stand")
-{
-    Console.WriteLine("\nI am 56 years old. How may I help you?");
-}
+employee1.Work();
+string message1=employee1.StandUp();
+Console.WriteLine(message1);
 
-Employees employee2 = new Employees();
+
+Employer employee2 = new Employer();
 employee2.Name = "Pinto";
 employee2.Age = 60;
-employee1.Company = "QMart";
-employee1.Designation = "Chief Operating Officer";
+employee2.Company = "QMart";
+employee2.Designation = "Chief Operating Officer";
 
-Console.WriteLine("\nName:      " + employee1.Name);
-Console.WriteLine("Age:         " + employee1.Age);
-Console.WriteLine("Company:     " + employee1.Company);
-Console.WriteLine("Designation: " + employee1.Designation);
+Console.WriteLine("\nName:      " + employee2.Name);
+Console.WriteLine("Age:         " + employee2.Age);
+Console.WriteLine("Company:     " + employee2.Company);
+Console.WriteLine("Designation: " + employee2.Designation);
 
-Console.WriteLine("\nEnter an instruction (Work/Stand)");
-var Instructs = Console.ReadLine();
-employee1.Instrution = Instructs;
-if (employee1.Instrution == "Work")
-{
-    Console.WriteLine("\nHey I am "+employee2.Name+". I am working! Thank you");
-}
-else if (employee1.Instrution == "Stand" || employee1.Instrution == "stand")
-{
-    Console.WriteLine("\nI am "+employee2.Age+" years old. How may I help you?");
-}
+employee2.Work();
+employee2.StandUp();
+string message2 = employee2.StandUp();
+Console.WriteLine(message2);
