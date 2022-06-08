@@ -2,10 +2,10 @@
 
 using PersonTask;
 
-Person person1 = new Person("Rohan",34,"India");
+Person person1 = new Person("Rohan", 34, "India");
 person1.Breakfast("Idli");
 person1.Lunch("Indian Thali");
-string m=person1.Dinner("Biriyani");
+string m = person1.Dinner("Biriyani");
 Console.WriteLine("I had " + m + " for dinner");
 
 
@@ -14,8 +14,3 @@ person2.Breakfast("Salad");
 person2.Lunch("Pizza");
 string n = person1.Dinner("Steaks");
 Console.WriteLine("I had " + n + " for dinner");
-
-
-
-
-
