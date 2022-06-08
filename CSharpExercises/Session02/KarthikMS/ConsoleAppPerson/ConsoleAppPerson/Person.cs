@@ -4,30 +4,43 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleAppPeople
+namespace ConsoleAppPerson
 {
     internal class Person
     {
         public string Name { get; set; }
         public int Age { get; set; }
         public string Country { get; set; }
-        public string BreakfastFood { get; set; }
-        public string LunchFood { get; set; }
-        public string DinnerFood { get; set; }
-        public void Breakfats()
+        public string FoodItem { get; set; }
+        
+        public Person(string Name,int Age,string Country)
         {
+            this.Name = Name;
+            this.Age = Age; 
+            this.Country = Country;
             Console.WriteLine("Hi! I'm " + this.Name + " I'm " + this.Age + " year old and " + " I'm from " + this.Country);
-            Console.WriteLine("I had breakfast and I ate " + this.BreakfastFood);
-        }
-        public void Lunch()
-        {
-            Console.WriteLine("I had lunch and I ate " + this.LunchFood);
 
         }
-        public void Dinner()
+        public string Breakfast(string FoodItem)
         {
-            Console.WriteLine("I had dinner and I ate " + this.DinnerFood);
+            this.FoodItem = FoodItem;
 
+            string message = "I had breakfast and I ate " +FoodItem;
+            return message;
+        }
+        public string Lunch(string FoodItem)
+        {
+            this.FoodItem = FoodItem;
+
+            string message ="I had lunch and I ate "+FoodItem ;
+            return message;
+
+        }
+        public string Dinner(string FoodItem)
+        {
+            this.FoodItem = FoodItem;
+            string message ="I had dinner and I ate " +FoodItem ;
+            return message;
         }
     }
 }

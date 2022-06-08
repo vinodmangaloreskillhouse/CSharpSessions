@@ -1,27 +1,21 @@
 ﻿// See https://aka.ms/new-console-template for more information
-// See https://aka.ms/new-console-template for more information
-using ConsoleAppPeople;
+using ConsoleAppPerson;
 
-Person p1 = new Person();
-p1.Name = "Lokesh";
-p1.Age = 45;
-p1.Country = "India";
-p1.BreakfastFood = "Roti";
-p1.LunchFood = "South Indian Thali";
-p1.DinnerFood = "Chapathi";
-p1.Breakfats();
-p1.Lunch();
-p1.Dinner();
+Person p1 = new Person("Lokesh",45,"India");
+string Breakfast=p1.Breakfast("Roti");
+Console.WriteLine(Breakfast);
+string Lunch=p1.Lunch("South Indian Thali");
+Console.WriteLine(Lunch);
+string Dinner=p1.Dinner("Chapathi");
+Console.WriteLine(Dinner);
 
-Person p2 = new Person();
-p2.Name = "Tom";
-p2.Age = 50;
-p2.Country = "USA";
-p2.BreakfastFood = "Salad";
-p2.LunchFood = "Burger";
-p2.DinnerFood = "Egg Sandwich";
-p2.Breakfats();
-p2.Lunch();
-p2.Dinner();
+Person p2 = new Person("Tom",50,"USA");
+string Breakfast2=p2.Breakfast("Salad");
+Console.WriteLine(Breakfast2);
+string Lunch2=p2.Lunch("Burger");
+Console.WriteLine(Lunch2);
+string Dinner2 =p2.Dinner("Egg Sandwich");
+Console.WriteLine(Dinner2);
+
 
 
