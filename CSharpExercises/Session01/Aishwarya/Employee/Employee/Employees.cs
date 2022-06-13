@@ -19,8 +19,6 @@ namespace Employee
             this.Age = age;
             this.JobRole = jobRole;
             this.Company = company;
-
-
         }
         public void Command(string s)
         {

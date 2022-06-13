@@ -10,6 +10,7 @@ namespace PersonProject
     {
         string Name { get; set; }
         string Color { get; set; }
+
         string CountryName;
         int Age { get; set; }
 

@@ -13,8 +13,3 @@ Console.WriteLine("\nCommand: Work");
 Employee2.Work();
 Console.WriteLine("Command: StandUp");
 Employee2.standUp();
-
-
-
-
-
