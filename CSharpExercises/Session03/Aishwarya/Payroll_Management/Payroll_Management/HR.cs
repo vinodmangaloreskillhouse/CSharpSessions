@@ -10,11 +10,11 @@ namespace Payroll_Management
     {
         public override void Work()
         {
-            Console.WriteLine("  I am" + this.Name + " now I am hiring");
+            Console.WriteLine("  I am " + this.Name + " now I am hiring");
         }
         public override void Bonus()
         {
-            Console.WriteLine("Bonus amopunt is 9000");
+            Console.WriteLine("Bonus amopunt is 9000 ");
         }
 
 

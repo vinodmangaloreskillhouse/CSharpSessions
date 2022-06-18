@@ -12,7 +12,13 @@ namespace Payroll_Management
         public int EmployeeID { get; set; }
 
         public double salary;
-        public static string OrganisationName="Nivious_Solution";
+       // public static string OrganisationName="Nivious_Solution";
+        public static void getOrganisationName()
+        {
+           var  OrganisationName = "Nivious_Solution";
+            
+            Console.WriteLine(OrganisationName);
+        }
 
 
        

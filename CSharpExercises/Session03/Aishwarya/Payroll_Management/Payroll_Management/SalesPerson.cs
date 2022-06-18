@@ -10,7 +10,7 @@ namespace Payroll_Management
     {
         public override void Work()
         {
-            Console.WriteLine("  I am" + this.Name + " now I am travelling");
+            Console.WriteLine("  I am " + this.Name + " now I am travelling");
         }
         public override void Bonus()
         {
