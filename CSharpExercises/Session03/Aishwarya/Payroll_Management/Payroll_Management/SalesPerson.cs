@@ -12,10 +12,7 @@ namespace Payroll_Management
         {
             Console.WriteLine("  I am " + this.Name + " now I am travelling");
         }
-        public override void Bonus()
-        {
-            Console.WriteLine("Bonus amopunt is 9000");
-        }
+       
         public override double getSalary()
         {
             return salary;
