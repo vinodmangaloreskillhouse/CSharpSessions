@@ -13,10 +13,6 @@ namespace PayrollManagement
             Console.WriteLine("Hey, I am Selling Items");
         }
 
-        public override double BonusSalary()
-        {
-            double bonus = 10000;
-            return bonus;
-        }
+      
     }
 }

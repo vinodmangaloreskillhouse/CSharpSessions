@@ -8,23 +8,18 @@ namespace PayrollManagement
 {
     internal abstract class Employee
     {
-        public string OrganizationName()
-        {
-            string comapnyName = "XYZ Company";
-            return comapnyName;
-            //Console.WriteLine("XYZ Company");
-        }
+        public static string OrganizationName 
+        { 
+            get => "XYZ Company";
+            set { }
+         }
         public string Name { get; set; }
 
         public int EmployeeID { get; set; }
 
         public double BaseSalary { get; set; }
 
-        public virtual double BonusSalary()
-        {
-            return 5000.00;
-            
-        }
+        public double BonusSalary { get; set; }
 
         public void Walk()
         {

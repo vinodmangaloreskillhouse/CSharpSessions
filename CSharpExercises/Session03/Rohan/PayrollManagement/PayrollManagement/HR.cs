@@ -14,11 +14,5 @@ namespace PayrollManagement
             Console.WriteLine("Hey, I am Recruting");
         }
 
-        public override double BonusSalary()
-        {
-            double bonus= 15000;
-            return bonus;
-           
-        }
     }
 }
