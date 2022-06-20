@@ -12,14 +12,6 @@ namespace Payroll
         {
             Console.WriteLine("Im busy in Hiring People");
         }
-        public override void BaseSalary()
-        {
-            Console.WriteLine("Base salary for HR is 3000000");
-
-        }
-        public override void Bonus()
-        {
-            Console.WriteLine("Bonus for Hr is 3600");
-        }
+       
     }
 }

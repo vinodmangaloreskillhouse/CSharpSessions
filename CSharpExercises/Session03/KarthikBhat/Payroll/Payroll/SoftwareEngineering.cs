@@ -13,15 +13,7 @@ namespace Payroll
         {
             Console.WriteLine("Im busy in coding");
         }
-        public override void BaseSalary()
-        {
-            Console.WriteLine("Base salary for SE is 150000");
-
-        }
-        public override void Bonus()
-        {
-            Console.WriteLine("Bonus for SE is 20000");
-        }
+       
 
     }
 }

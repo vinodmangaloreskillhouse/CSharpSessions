@@ -12,9 +12,9 @@ namespace Payroll
         public string Name { get; set; }
         public int Id { get; set; }
 
-        public abstract void BaseSalary();
+        public decimal BaseSalary { get; set; }
 
-        public abstract void Bonus();
+        public decimal Bonus { get; set; }
 
         public abstract void Work();
 
