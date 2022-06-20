@@ -1,16 +1,30 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using PayRollTask;
-Salesman sm = new Salesman("Anush","4SN100",40000,5000);
-Salesman.GetOrganizationName();
-Salesman.walk();
-sm.work();
+Employee.GetOrganizationName = "ABCD.ltd";
+Salesman sm = new Salesman();
+sm.Name = "Varun";
+sm.ID = "4SN101";
+sm.BaseSalary = 50000;
+sm.Bonus = 5000;
+sm.EmployeeDetails();
+sm.Walk();
+sm.Work();
 
-HR hr = new HR("Vinay", "4MN100", 60000, 5000);
-HR.GetOrganizationName();
-HR.walk();
-hr.work();
 
-SoftwareEngineer se = new SoftwareEngineer("Dhanush", "4NN100", 50000, 6000);
-SoftwareEngineer.GetOrganizationName();
-SoftwareEngineer.walk();
-se.work();
+HR hr = new HR();
+hr.Name = "Govind";
+hr.ID = "4HR102";
+hr.BaseSalary = 65000;
+hr.Bonus = 6000;
+hr.EmployeeDetails();
+hr.Walk();
+hr.Work();
+
+SoftwareEngineer se = new SoftwareEngineer();
+se.Name = "Anush";
+se.ID = "4SE101";
+se.BaseSalary = 60000;
+se.Bonus = 5500;
+se.EmployeeDetails();
+se.Walk();
+se.Work();
