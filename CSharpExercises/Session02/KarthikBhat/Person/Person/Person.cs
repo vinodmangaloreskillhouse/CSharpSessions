@@ -13,9 +13,9 @@ namespace ConsoleAppPerson
         public int Age { get; set; }
         public string Country { get; set; }
         public string Colour { get; set; }
-        public string Food { get; set; }
+        //public string Food { get; set; }
 
-        public Person(String name, int age, string colour, string country)
+        public Person(string name, int age, string colour, string country)
         {
             this.Name = name;
             this.Age = age;
@@ -25,24 +25,24 @@ namespace ConsoleAppPerson
         }
         public string Breakfast(string Food)
         {
-            this.Food = Food;
-            string message = this.Name + " 's Breakfast is " + this.Food;
+           // this.Food = Food;
+            string message = this.Name + " 's Breakfast is " + Food;
             return message;
 
 
         }
         public string Lunch(string Food)
         {
-            this.Food = Food;
-            string message = this.Name + " 's Lunch is " + this.Food;
+            //this.Food = Food;
+            string message = this.Name + " 's Lunch is " + Food;
             return message;
 
 
         }
         public string Dinner(string Food)
         {
-            this.Food = Food;
-            string message = this.Name + " 's Dinner is " + this.Food;
+            //this.Food = Food;
+            string message = this.Name + " 's Dinner is " + Food;
             return message;
 
         }
