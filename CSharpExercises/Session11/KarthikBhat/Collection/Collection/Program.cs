@@ -16,7 +16,7 @@ user2.LastName = "bhat";
 user2.Address = "banglore";
 user2.Email = "bhatiuo@gmail.com";
 user2.Password = "3455jkh";
-user2.LastLoggedIn = new DateTime(2022,6,27,5,42,0);
+user2.LastLoggedIn = new DateTime(2022, 6, 27, 5, 42, 0);
 
 User user3 = new User();
 user3.FirstName = "Ashika";
@@ -28,7 +28,7 @@ user3.LastLoggedIn = new DateTime(2022, 6, 27, 7, 42, 0);
 
 
 List<User> list = new List<User>();
-list.Add(user1);    
+list.Add(user1);
 list.Add(user2);
 list.Add(user3);
 
@@ -39,4 +39,3 @@ foreach (User value in list)
     Console.WriteLine(value.FirstName);
 
 }
-
